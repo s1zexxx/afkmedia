@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("23786230"))
+API_ID = int(getenv("23786230")
 API_HASH = getenv("c3a267db65847bfff3177db9084506ef")
 
 ## Get it from @Botfather in Telegram.
