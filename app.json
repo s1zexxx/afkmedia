@@ -33,16 +33,6 @@
       "description": "A Bot token from @BotFather",
       "required": true,
       "value": ""
-    },
-    "MONGO_DB_URI": {
-      "description": "Get a mongodb url from https://cloud.mongodb.com.",
-      "required": true,
-      "value": ""
-    },
-    "SUDO_USER": {
-      "description": "The user id(s) of user(s) whom you would like to add as a SUDO_USER, Multiple values shall be seperated with a space.",
-      "required": true,
-      "value": ""
     }
   }
 }
