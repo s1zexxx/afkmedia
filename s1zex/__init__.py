@@ -18,17 +18,11 @@ import config
 loop = asyncio.get_event_loop()
 boot = time.time()
 
-mongo = MongoClient(config.MONGO_DB_URI)
-db = mongo.AFK
-
 botid = 0
 botname = ""
 botusername = ""
 
 cleanmode = {}
-
-
-SUDOERS = config.SUDO_USER
 
 app = Client(
     ":s1zexAFKBot:",
